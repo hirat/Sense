@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7309C2CB1CAD61BD00BAF594 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7309C2CA1CAD61BD00BAF594 /* main.m */; };
+		7309C2CE1CAD61BD00BAF594 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7309C2CD1CAD61BD00BAF594 /* AppDelegate.m */; };
+		7309C2D01CAD61BD00BAF594 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7309C2CF1CAD61BD00BAF594 /* Assets.xcassets */; };
+		7309C2D31CAD61BD00BAF594 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7309C2D11CAD61BD00BAF594 /* LaunchScreen.storyboard */; };
+		7309C2E21CAD646400BAF594 /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7309C2E11CAD646400BAF594 /* FeedTableViewController.m */; };
+		7309C2E51CAD647D00BAF594 /* FeedTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7309C2E41CAD647D00BAF594 /* FeedTableViewModel.m */; };
+		7309C2E81CAD66F600BAF594 /* FeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7309C2E71CAD66F600BAF594 /* FeedTableViewCell.m */; };
+		7309C2ED1CAD686B00BAF594 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7309C2EC1CAD686B00BAF594 /* NetworkManager.m */; };
+		7309C2F01CAD6B9B00BAF594 /* FeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7309C2EF1CAD6B9B00BAF594 /* FeedModel.m */; };
+		738A836C1CAD88C8000E64C2 /* FeedTableViewTopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 738A836B1CAD88C8000E64C2 /* FeedTableViewTopCell.m */; };
+		738A836F1CAD8CA0000E64C2 /* FeedTableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 738A836E1CAD8CA0000E64C2 /* FeedTableViewHeader.m */; };
+		BA94C0B1006566423FEF7875 /* libPods-Sense.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33E2F8C771DD793FBC204BFF /* libPods-Sense.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33E2F8C771DD793FBC204BFF /* libPods-Sense.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sense.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		722CAEB9D3CDB8F08C7FA9D3 /* Pods-Sense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sense.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sense/Pods-Sense.debug.xcconfig"; sourceTree = "<group>"; };
+		7309C2C61CAD61BD00BAF594 /* Sense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7309C2CA1CAD61BD00BAF594 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7309C2CC1CAD61BD00BAF594 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7309C2CD1CAD61BD00BAF594 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7309C2CF1CAD61BD00BAF594 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7309C2D21CAD61BD00BAF594 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7309C2D41CAD61BD00BAF594 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7309C2E01CAD646400BAF594 /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
+		7309C2E11CAD646400BAF594 /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
+		7309C2E31CAD647D00BAF594 /* FeedTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewModel.h; sourceTree = "<group>"; };
+		7309C2E41CAD647D00BAF594 /* FeedTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewModel.m; sourceTree = "<group>"; };
+		7309C2E61CAD66F600BAF594 /* FeedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewCell.h; sourceTree = "<group>"; };
+		7309C2E71CAD66F600BAF594 /* FeedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewCell.m; sourceTree = "<group>"; };
+		7309C2EB1CAD686B00BAF594 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		7309C2EC1CAD686B00BAF594 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		7309C2EE1CAD6B9B00BAF594 /* FeedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedModel.h; sourceTree = "<group>"; };
+		7309C2EF1CAD6B9B00BAF594 /* FeedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedModel.m; sourceTree = "<group>"; };
+		738A836A1CAD88C8000E64C2 /* FeedTableViewTopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewTopCell.h; sourceTree = "<group>"; };
+		738A836B1CAD88C8000E64C2 /* FeedTableViewTopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewTopCell.m; sourceTree = "<group>"; };
+		738A836D1CAD8CA0000E64C2 /* FeedTableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewHeader.h; sourceTree = "<group>"; };
+		738A836E1CAD8CA0000E64C2 /* FeedTableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewHeader.m; sourceTree = "<group>"; };
+		FDBA62EC78F10685A2F82F1C /* Pods-Sense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sense.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sense/Pods-Sense.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7309C2C31CAD61BD00BAF594 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA94C0B1006566423FEF7875 /* libPods-Sense.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7309C2BD1CAD61BD00BAF594 = {
+			isa = PBXGroup;
+			children = (
+				7309C2C81CAD61BD00BAF594 /* Sense */,
+				7309C2C71CAD61BD00BAF594 /* Products */,
+				B516D8613F58F3FE6B16802C /* Pods */,
+				804E4DEC68D77D92549EFD57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7309C2C71CAD61BD00BAF594 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7309C2C61CAD61BD00BAF594 /* Sense.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7309C2C81CAD61BD00BAF594 /* Sense */ = {
+			isa = PBXGroup;
+			children = (
+				7309C2CC1CAD61BD00BAF594 /* AppDelegate.h */,
+				7309C2CD1CAD61BD00BAF594 /* AppDelegate.m */,
+				7309C2DA1CAD641C00BAF594 /* Model */,
+				7309C2DB1CAD641C00BAF594 /* View */,
+				7309C2DC1CAD641C00BAF594 /* ViewModel */,
+				7309C2C91CAD61BD00BAF594 /* Supporting Files */,
+			);
+			path = Sense;
+			sourceTree = "<group>";
+		};
+		7309C2C91CAD61BD00BAF594 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7309C2CF1CAD61BD00BAF594 /* Assets.xcassets */,
+				7309C2D11CAD61BD00BAF594 /* LaunchScreen.storyboard */,
+				7309C2D41CAD61BD00BAF594 /* Info.plist */,
+				7309C2CA1CAD61BD00BAF594 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7309C2DA1CAD641C00BAF594 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7309C2E91CAD683B00BAF594 /* Network */,
+				7309C2EA1CAD683B00BAF594 /* Object */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7309C2DB1CAD641C00BAF594 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7309C2E01CAD646400BAF594 /* FeedTableViewController.h */,
+				7309C2E11CAD646400BAF594 /* FeedTableViewController.m */,
+				738A836D1CAD8CA0000E64C2 /* FeedTableViewHeader.h */,
+				738A836E1CAD8CA0000E64C2 /* FeedTableViewHeader.m */,
+				7309C2E61CAD66F600BAF594 /* FeedTableViewCell.h */,
+				7309C2E71CAD66F600BAF594 /* FeedTableViewCell.m */,
+				738A836A1CAD88C8000E64C2 /* FeedTableViewTopCell.h */,
+				738A836B1CAD88C8000E64C2 /* FeedTableViewTopCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7309C2DC1CAD641C00BAF594 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7309C2E31CAD647D00BAF594 /* FeedTableViewModel.h */,
+				7309C2E41CAD647D00BAF594 /* FeedTableViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7309C2E91CAD683B00BAF594 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7309C2EB1CAD686B00BAF594 /* NetworkManager.h */,
+				7309C2EC1CAD686B00BAF594 /* NetworkManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7309C2EA1CAD683B00BAF594 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				7309C2EE1CAD6B9B00BAF594 /* FeedModel.h */,
+				7309C2EF1CAD6B9B00BAF594 /* FeedModel.m */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		804E4DEC68D77D92549EFD57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33E2F8C771DD793FBC204BFF /* libPods-Sense.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B516D8613F58F3FE6B16802C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				722CAEB9D3CDB8F08C7FA9D3 /* Pods-Sense.debug.xcconfig */,
+				FDBA62EC78F10685A2F82F1C /* Pods-Sense.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7309C2C51CAD61BD00BAF594 /* Sense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7309C2D71CAD61BD00BAF594 /* Build configuration list for PBXNativeTarget "Sense" */;
+			buildPhases = (
+				8754B8469FEE1B45FC3430A8 /* Check Pods Manifest.lock */,
+				7309C2C21CAD61BD00BAF594 /* Sources */,
+				7309C2C31CAD61BD00BAF594 /* Frameworks */,
+				7309C2C41CAD61BD00BAF594 /* Resources */,
+				D88C87B128BE065EB4C16459 /* Embed Pods Frameworks */,
+				B60892F2821751591E373971 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sense;
+			productName = Sense;
+			productReference = 7309C2C61CAD61BD00BAF594 /* Sense.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7309C2BE1CAD61BD00BAF594 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Hirat;
+				TargetAttributes = {
+					7309C2C51CAD61BD00BAF594 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 7309C2C11CAD61BD00BAF594 /* Build configuration list for PBXProject "Sense" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7309C2BD1CAD61BD00BAF594;
+			productRefGroup = 7309C2C71CAD61BD00BAF594 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7309C2C51CAD61BD00BAF594 /* Sense */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7309C2C41CAD61BD00BAF594 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7309C2D01CAD61BD00BAF594 /* Assets.xcassets in Resources */,
+				7309C2D31CAD61BD00BAF594 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8754B8469FEE1B45FC3430A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B60892F2821751591E373971 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sense/Pods-Sense-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D88C87B128BE065EB4C16459 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sense/Pods-Sense-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7309C2C21CAD61BD00BAF594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7309C2E81CAD66F600BAF594 /* FeedTableViewCell.m in Sources */,
+				7309C2CE1CAD61BD00BAF594 /* AppDelegate.m in Sources */,
+				7309C2F01CAD6B9B00BAF594 /* FeedModel.m in Sources */,
+				738A836C1CAD88C8000E64C2 /* FeedTableViewTopCell.m in Sources */,
+				7309C2CB1CAD61BD00BAF594 /* main.m in Sources */,
+				7309C2E21CAD646400BAF594 /* FeedTableViewController.m in Sources */,
+				738A836F1CAD8CA0000E64C2 /* FeedTableViewHeader.m in Sources */,
+				7309C2ED1CAD686B00BAF594 /* NetworkManager.m in Sources */,
+				7309C2E51CAD647D00BAF594 /* FeedTableViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7309C2D11CAD61BD00BAF594 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7309C2D21CAD61BD00BAF594 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7309C2D51CAD61BD00BAF594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7309C2D61CAD61BD00BAF594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7309C2D81CAD61BD00BAF594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722CAEB9D3CDB8F08C7FA9D3 /* Pods-Sense.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hirat.Sense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7309C2D91CAD61BD00BAF594 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDBA62EC78F10685A2F82F1C /* Pods-Sense.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hirat.Sense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7309C2C11CAD61BD00BAF594 /* Build configuration list for PBXProject "Sense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7309C2D51CAD61BD00BAF594 /* Debug */,
+				7309C2D61CAD61BD00BAF594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7309C2D71CAD61BD00BAF594 /* Build configuration list for PBXNativeTarget "Sense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7309C2D81CAD61BD00BAF594 /* Debug */,
+				7309C2D91CAD61BD00BAF594 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7309C2BE1CAD61BD00BAF594 /* Project object */;
+}
