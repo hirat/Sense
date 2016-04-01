@@ -44,17 +44,15 @@
     CGFloat layerHeight = finalSize.height * 0.1;
     self.shapeLayer = [CAShapeLayer layer];
     UIBezierPath* bezier = [UIBezierPath bezierPath];
-    [bezier moveToPoint: CGPointMake(0, finalSize.height -layerHeight-1)];
-    [bezier addLineToPoint: CGPointMake(0, finalSize.height -1)];
-    [bezier addLineToPoint: CGPointMake(finalSize.width, finalSize.height-1)];
-    [bezier addLineToPoint: CGPointMake(finalSize.width, finalSize.height-1 - layerHeight)];
-    [bezier addQuadCurveToPoint: CGPointMake(0,finalSize.height-1 - layerHeight)
-                   controlPoint: CGPointMake(finalSize.width / 2, (finalSize.height-1 - layerHeight) + 120/1.5)];
+    [bezier moveToPoint: CGPointMake(0, finalSize.height -layerHeight)];
+    [bezier addLineToPoint: CGPointMake(0, finalSize.height)];
+    [bezier addLineToPoint: CGPointMake(finalSize.width, finalSize.height)];
+    [bezier addLineToPoint: CGPointMake(finalSize.width, finalSize.height - layerHeight)];
+    [bezier addQuadCurveToPoint: CGPointMake(0,finalSize.height - layerHeight)
+                   controlPoint: CGPointMake(finalSize.width / 2, (finalSize.height - layerHeight) + 120/1.5)];
     self.shapeLayer.path = bezier.CGPath;
     self.shapeLayer.fillColor = [UIColor whiteColor].CGColor;
-    self.shapeLayer.borderColor = [UIColor redColor].CGColor;
-    self.shapeLayer.lineWidth = 1.f;
-    self.shapeLayer.strokeColor = [UIColor whiteColor].CGColor;
+
     [self.layer addSublayer: self.shapeLayer];
 }
 
@@ -84,8 +82,8 @@
         
         UIBezierPath* bezier = [UIBezierPath new];
         [bezier moveToPoint: CGPointMake(0, finalSize.height -layerHeight)];
-        [bezier addLineToPoint: CGPointMake(0, finalSize.height -1)];
-        [bezier addLineToPoint: CGPointMake(finalSize.width, finalSize.height - 1)];
+        [bezier addLineToPoint: CGPointMake(0, finalSize.height)];
+        [bezier addLineToPoint: CGPointMake(finalSize.width, finalSize.height)];
         [bezier addLineToPoint: CGPointMake(finalSize.width, finalSize.height - layerHeight)];
         [bezier addQuadCurveToPoint: CGPointMake(0,finalSize.height - layerHeight)
                        controlPoint: CGPointMake(finalSize.width / 2, (finalSize.height - layerHeight) + (120 - offset)/scale)];
